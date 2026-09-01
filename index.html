@@ -249,7 +249,7 @@
 
     function autoWeekType() {
       // 1 сентября 2026 = ISO 36 = чётная → числитель
-      return (getISOWeek(new Date()) % 2 === 0) ? 'denominator' : 'numerator';
+      return (getISOWeek(new Date()) % 2 === 0) ? 'numerator' : 'denominator';
     }
 
     function currentWeekType() {
