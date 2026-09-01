@@ -1,0 +1,26 @@
+{
+  "name": "Расписание ПЭ2-26",
+  "short_name": "ПЭ2-26",
+  "description": "Расписание группы ПЭ2-26 с автоматическим определением чётной и нечётной недели",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "ru"
+}
